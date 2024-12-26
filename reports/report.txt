@@ -1,0 +1,3 @@
+R-squared: 0.7846853591880738
+Mean Absolute Percentage Error: 6.009148917390681
+Root Mean Squared Error: 1.579555934900623
