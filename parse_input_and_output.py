@@ -62,7 +62,7 @@ def generate_report(df: pd.DataFrame):
     R-squared, Mean Absolute Percentage Error and the Root Mean Squared Error
     """
     os.makedirs('reports', exist_ok=True)
-    df.to_excel(excel_writer="predictions.xlsx", sheet_name="Result")
+    df.to_excel(excel_writer="./reports/predictions.xlsx", sheet_name="Result")
     view_charts()
     plot_regression(df)
     rmse = calc_rmse(df)
